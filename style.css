@@ -1,0 +1,48 @@
+/* 
+    @wunsun_5
+*/
+
+@import url('https://fonts.cdnfonts.com/css/pathway-gothic-one');
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.logo{
+    position: relative;
+    width: 5em;
+    height: 3em;
+    background-color: #ff0000;
+    border-radius: 25%;
+}
+
+.logo::before{
+    content: '';
+    position: absolute;
+    border-top: .5em solid transparent;
+    border-left: 1em solid white;
+    border-bottom: .5em solid transparent;
+    inset: 50%;
+    transform: translate(-40%, -50%);
+}
+
+.text{
+    color: white;
+    padding: .1em;
+    font-family: "Pathway Gothic One", sans-serif;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+
